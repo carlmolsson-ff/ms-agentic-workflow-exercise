@@ -14,6 +14,11 @@ tools:
   edit:
   web-fetch:
 
+mcp-servers:
+  fetch:
+    container: mcp/fetch
+    allowed: ["*"]
+
 network:
   allowed:
     - defaults
