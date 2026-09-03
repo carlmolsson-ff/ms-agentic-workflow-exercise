@@ -19,6 +19,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 
 safe-outputs:
   create-pull-request:
@@ -38,11 +39,13 @@ Changelog stories, following Mona's editorial guidance.
    editorial angle and expectations for this site.
 2. Fetch <https://github.blog/latest/> to review the most recent GitHub Blog posts.
 3. Fetch <https://github.blog/changelog/> to review the most recent GitHub Changelog entries.
-4. Compare what you find against the current content in
+4. Fetch <https://awesome-copilot.github.com/workflows/> to review the latest Awesome
+   Copilot workflows.
+5. Compare what you find against the current content in
    [site/content/github-info.md](../../site/content/github-info.md).
-5. Update `site/content/github-info.md` with concise, practical summaries of any
-   noteworthy new stories or changes, mentioning the source (GitHub Blog or GitHub
-   Changelog) for each item you add, per Mona's notes. Keep existing content that is
-   still accurate; avoid unnecessary rewrites.
-6. Open a pull request with your changes so Mona can review everything before it
+6. Update `site/content/github-info.md` with concise, practical summaries of any
+   noteworthy new stories or changes, mentioning the source (GitHub Blog, GitHub
+   Changelog, or Awesome Copilot workflows) for each item you add, per Mona's notes.
+   Keep existing content that is still accurate; avoid unnecessary rewrites.
+7. Open a pull request with your changes so Mona can review everything before it
    goes live. If there is nothing worth updating, do not open a pull request.
